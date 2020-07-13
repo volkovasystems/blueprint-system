@@ -1,0 +1,27 @@
+{
+	"namespace": "[@type:string]",
+	"title": "[@type:string]",
+	"description": "[@type:string]",
+	"value": "[@type:string|number|boolean]",
+
+	"property": "[@type:string]",
+	"parameter": "[@type:string]",
+
+	"type": "[@type:string|number|boolean]",
+	"defaultValue": "[@type:string|number|boolean]",
+
+	"state": [
+		"[@value:optional]",
+		"[@value:required]",
+		"[@value:none]"
+	],
+	"status": true,
+
+	"instruction": "[@type:string]",
+	"example": "[@type:string]",
+
+	"order": 0,
+	"priority": 0,
+
+	"platform": "[@type:string]"
+}

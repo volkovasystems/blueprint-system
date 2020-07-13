@@ -1,0 +1,14 @@
+[
+	{
+		"namespace":"platform-service-constant",
+		"title": "Platform Service Constant",
+		"description": "Template platform service constant",
+		"value": "constant/**/*.js"
+	},
+	{
+		"namespace":"platform-structure-service-constant",
+		"title": "Platform Structure Service Constant",
+		"description": "Template platform structure service constant",
+		"value": "platform-structure/constant/**/*.js"
+	}
+]

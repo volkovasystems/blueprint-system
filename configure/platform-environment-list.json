@@ -1,0 +1,80 @@
+[
+	{
+		"namespace":"local",
+		"title": "Local Platform Environment",
+		"description": "Template local platform environment",
+		"value": "local"
+	},
+	{
+		"namespace":"development",
+		"title": "Development Platform Environment",
+		"description": "Template development platform environment",
+		"value": "development"
+	},
+	{
+		"namespace":"local-development",
+		"title": "Local Development Platform Environment",
+		"description": "Template local development platform environment",
+		"value": "local-development"
+	},
+	{
+		"namespace":"local-production",
+		"title": "Local Production Platform Environment",
+		"description": "Template local production platform environment",
+		"value": "local-production"
+	},
+	{
+		"namespace":"staging",
+		"title": "Staging Platform Environment",
+		"description": "Template staging platform environment",
+		"value": "staging"
+	},
+	{
+		"namespace":"staging-development",
+		"title": "Staging Development Platform Environment",
+		"description": "Template staging development platform environment",
+		"value": "staging-development"
+	},
+	{
+		"namespace":"staging-production",
+		"title": "Staging Production Platform Environment",
+		"description": "Template staging production platform environment",
+		"value": "staging-production"
+	},
+	{
+		"namespace":"production",
+		"title": "Production Platform Environment",
+		"description": "Template production platform environment",
+		"value": "production"
+	},
+	{
+		"namespace":"sandbox",
+		"title": "Sandbox Platform Environment",
+		"description": "Template sandbox platform environment",
+		"value": "sandbox"
+	},
+	{
+		"namespace":"test",
+		"title": "Test Platform Environment",
+		"description": "Template test platform environment",
+		"value": "test"
+	},
+	{
+		"namespace":"production-test",
+		"title": "Production Test Platform Environment",
+		"description": "Template production test platform environment",
+		"value": "production-test"
+	},
+	{
+		"namespace":"sandbox-test",
+		"title": "Sandbox Test Platform Environment",
+		"description": "Template sandbox test platform environment",
+		"value": "sandbox-test"
+	},
+	{
+		"namespace":"maintenance",
+		"title": "Maintenance Platform Environment",
+		"description": "Template maintenance platform environment",
+		"value": "maintenance"
+	}
+]

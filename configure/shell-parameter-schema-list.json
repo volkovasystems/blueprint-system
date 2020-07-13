@@ -1,0 +1,120 @@
+[
+	{
+		"namespace": "run-service",
+		"title": "Run Service Option",
+		"description": "",
+		"value": "runService",
+
+		"property": "runService",
+		"parameter": "run-serv",
+
+		"type": "string",
+		"defaultValue": "",
+		"state": [ "optional" ],
+
+		"instruction": "",
+		"example": "",
+
+		"order": 0,
+		"platform": "generic"
+	},
+	{
+		"namespace": "platform-directory",
+		"title": "Plaform Directory Option",
+		"description": "",
+		"value": "platformDirectory",
+
+		"property": "platformDirectory",
+		"parameter": "platf-dir",
+
+		"type": "string",
+		"defaultValue": "",
+		"state": [ ],
+
+		"instruction": "",
+		"example": "",
+
+		"order": 0,
+		"platform": "generic"
+	},
+	{
+		"namespace": "platform-environment",
+		"title": "Plaform Environment Option",
+		"description": "",
+		"value": "platformEnvironment",
+
+		"type": "string",
+
+		"property": "platformEnvironment",
+		"parameter": "platf-env",
+
+		"instruction": "",
+		"example": "",
+
+		"defaultValue": "local",
+		"state": [ ],
+
+		"order": 0,
+		"platform": "generic"
+	},
+	{
+		"namespace": "platform-service",
+		"title": "Plaform Service Option",
+		"description": "",
+		"value": "platformService",
+
+		"type": "string",
+
+		"property": "platformService",
+		"parameter": "platf-serv",
+
+		"instruction": "",
+		"example": "",
+
+		"defaultValue": "",
+		"state": [ ],
+
+		"order": 0,
+		"platform": "generic"
+	},
+	{
+		"namespace": "platform-ip",
+		"title": "Plaform IP Option",
+		"description": "",
+		"value": "platformIPAddress",
+
+		"type": "string",
+
+		"property": "platformIPAddress",
+		"parameter": "platf-ip",
+
+		"instruction": "",
+		"example": "",
+
+		"defaultValue": "0.0.0.0",
+		"state": [ ],
+
+		"order": 0,
+		"platform": "generic"
+	},
+	{
+		"namespace": "platform-port",
+		"title": "Plaform Port Option",
+		"description": "",
+		"value": "platformPortNumber",
+
+		"type": "number",
+
+		"property": "platformPortNumber",
+		"parameter": "platf-port",
+
+		"instruction": "",
+		"example": "",
+
+		"defaultValue": 54321,
+		"state": [ ],
+
+		"order": 0,
+		"platform": "generic"
+	}
+]
