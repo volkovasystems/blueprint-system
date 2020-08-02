@@ -1,5 +1,5 @@
 # Blueprint Platform System
 
-## Blueprint Platform System General Boot
+## Blueprint Platform System Core Boot
 
 ----

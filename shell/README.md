@@ -1,5 +1,5 @@
 # Blueprint Platform System
 
-## Blueprint Platform System General Shell
+## Blueprint Platform System Core Shell
 
 ----
