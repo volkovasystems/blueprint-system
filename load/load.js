@@ -6,8 +6,8 @@ const procedure = (
 	require( `${ __dirname }/utility/procedure.js` )
 );
 
-const boot = (
-	async	function boot( option, callback ){
+const load =  (
+	async	function load( option, callback ){
 					{
 						option,
 						callback
@@ -35,4 +35,4 @@ const boot = (
 			}
 );
 
-module.exports = boot;
+module.exports = load;
