@@ -6,10 +6,6 @@ const procedure = (
 	require( `${ __dirname }/utility/procedure.js` )
 );
 
-const hardenProperty = (
-	require( `${ __dirname }/utility/harden-property.js` )
-);
-
 const load = (
 	require( `${ __dirname }/load.js` )
 );
@@ -20,37 +16,6 @@ const shell = (
 
 const boot = (
 	require( `${ __dirname }/boot.js` )
-);
-
-const PLATFORM_INDEX_PROCESS_STATE = (
-	Symbol
-	.for(
-		(
-			"platform-index-process"
-		)
-	)
-);
-
-const PLATFORM_INDEX_DONE_STATE = (
-	Symbol
-	.for(
-		(
-			"platform-index-done"
-		)
-	)
-);
-
-const PLATFORM_INDEX_STATE = (
-	[ ]
-);
-
-hardenProperty(
-	(
-		"PLATFORM_INDEX_STATE"
-	),
-	(
-		PLATFORM_INDEX_STATE
-	)
 );
 
 const index = (
@@ -66,7 +31,38 @@ const index = (
 					);
 
 				try{
+						{
+							option
+						}
+					=	(
+							await	load(
+										(
+											option
+										)
+									)
+						);
 
+						{
+							option
+						}
+					=	(
+							await	shell(
+										(
+											option
+										)
+									)
+						);
+
+						{
+							option
+						}
+					=	(
+							await	boot(
+										(
+											option
+										)
+									)
+						);
 				}
 				catch( error ){
 
